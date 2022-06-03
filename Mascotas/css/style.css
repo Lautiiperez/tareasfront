@@ -1,6 +1,3 @@
-footer {background: #3C2313;
-
-}
 header{color: white}
 .logo {background: #F0A83E;
     ;
@@ -11,6 +8,23 @@ header{color: white}
 
 h1 {text-align: center;}
 
-.plato {background-image: url('../img/bowl.png');}
+.plato {background-image: url('../img/bowl.png');
+background: size 100%;
+background-repeat: no-repeat;
+text-align: center;}
+
+#come {color: white;}
+/* background-color: #F0A83E !important;} */
+
+span {color: #F0A83E;}
+
+.foot {color: white;
+    background: #3C2313}
+
+footer p {color: grey !important}
+
+h4 {color: white;
+    background: #F0A83E;
+text-align: center;}
 
 /* <placeholder> */
