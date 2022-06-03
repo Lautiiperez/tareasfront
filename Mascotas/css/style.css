@@ -1,1 +1,16 @@
-footer {background: #3C2313}
+footer {background: #3C2313;
+
+}
+header{color: white}
+.logo {background: #F0A83E;
+    ;
+}
+.barra {background: white !important;}
+
+.ofertas {background: black !important;}
+
+h1 {text-align: center;}
+
+.plato {background-image: url('../img/bowl.png');}
+
+/* <placeholder> */
