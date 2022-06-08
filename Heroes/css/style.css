@@ -4,18 +4,63 @@
 header {position: sticky;
     top: 0px;
     height: 80px;
-    background-color: #00669F;}
+    background-color: #00669F;
+    z-index: 5}
 
 h1 { font-size: 40px;
     font-family: 'Roboto', sans-serif;
 margin-left: 20px;
-padding-top: 10px;}
+padding-top: 13px;}
 
 .desc {background-color: #1CD1B0;
         position: relative;  
         margin-bottom: -33px;}
 
-h3 {padding: 5px}
+h3 {padding: 5px;
+font-size: 15px;}
 
 .personajes { background-color:#F3F3F3 ;
-display: inline-block}
+   display: inline-block;
+width: 300px;
+height: 500px;
+position: relative;
+font-family: 'Roboto', sans-serif;
+z-index: -1;
+}
+
+footer {background-color: #00669F;
+color: white;
+height: 30px;
+padding-top: 7px;
+padding-left: 10px;
+font-size: 13px;}
+
+.logo{position:relative;
+    top: 130px;
+    left: 90px;
+z-index: 2;
+border-radius: 100px;
+}
+
+.fondo{position:absolute;
+    left: -0px;
+    z-index: 1;
+}
+
+.cora{position:relative;
+    top: -75px;
+    left: -100px;
+    z-index: 3
+}
+
+h2 { padding-top: 130px;
+text-align: center;}
+
+.boton { background-color: #00669F;
+color: white;
+text-align: center;
+margin-right: 110px;
+margin-left: 110px;
+padding-top: 8px;
+height: 35px;
+}
