@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    
+    position: sticky; 
+    top: 0px;
+    background-color: #8D91C7;
+    width: 100%;
+}
+
+nav {
+    position: sticky;
+    top: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+li {
+    background-color: lightblue;
+
+}
+
+/* Estilos boxes */
+
+/*mostrar max-width con contenedor y borde */
+
+.container {
+    max-width: 70%;
+    margin: 30px auto;
+    /* position:relative; */
+}
+
+/* mostrar alto y ancho con box */
+.box {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 10px;
+    display:inline-block;
+    
+    
+    
+}
+
+.box-1 {
+    background-color: rgba(132,90,109, 0.7);
+   
+}
+
+.box-2 {
+    background-color: rgba(62,25,41, 0.7);
+  
+    /* bottom: 50px;
+    right: 50px; */
+    
+    
+}
+
+.box-3 {
+    background-color: rgba(110,117,168, 0.7);
+}
