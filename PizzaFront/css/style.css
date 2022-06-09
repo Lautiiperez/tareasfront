@@ -1,4 +1,5 @@
-* {box-sizing:border-box}
+* {box-sizing:border-box;
+    font-family: 'Roboto', sans-serif}
 
 header{background-color: #222222;
 justify-content: space-between;
@@ -13,14 +14,13 @@ padding-right: 10px;
 }
 .barra span {padding-left: 10px;}
 
-.pizza {height: 90%;
-    padding-top: 20px}
+.pizza {padding-top: 20px}
 
 main {
     display: flex;
-    /* position: relative; */
-    /* justify-content: center;  */
-    margin-top: 20px;
+    position: relative;
+    justify-content: space-around; 
+    margin:50px 250px;
 }
 
 img {
@@ -29,4 +29,18 @@ img {
 span {
     z-index: 1;}
 
+.segundo {width: 500px;
+    height: 350px;
+    border: solid red;}
+
+.podio {text-align: center;
+color: red;
+font-size: 23px;
+font-weight: bold;
+padding-top: 20px;}
+
+.top { margin-top: 30px;
+margin-left: 40px;}
+
+.prepa {}
 
