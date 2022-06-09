@@ -1,38 +1,32 @@
 * {box-sizing:border-box}
 
 header{background-color: #222222;
-position: relative;
+justify-content: space-between;
 color:white;
 display: flex;
 height: 100px;}
 
-div { justify-content: flex-end;
-margin-left: 800px;
-padding-top: 20px;}
+.barra ul {display: flex;
+flex-flow:wrap;
+padding-top: 20px;
+padding-right: 10px;
+}
+.barra span {padding-left: 10px;}
 
-ul {display: flex}
+.pizza {height: 90%;
+    padding-top: 20px}
 
-span {margin: 5px;}
-
-.nombre {color:#39B24A;
-    font-family: 'Roboto', sans-serif;
-padding-top: 30px;
-font-size: 20px;
+main {
+    display: flex;
+    /* position: relative; */
+    /* justify-content: center;  */
+    margin-top: 20px;
 }
 
-.nombre2 {padding-top: 30px;
-    font-family: 'Roboto', sans-serif;
-    margin-left: -3px;
-    font-size: 20px;
-}
+img {
+    z-index: 0;}
 
-.nombre3 {color: #FC200C;
-    font-family: 'Roboto', sans-serif;
-    padding-top: 30px;
-    margin-left: -3px;
-    font-size: 20px;
-}
-.pizza { 
-    width:80%;
-    height: 80%;
-}
+span {
+    z-index: 1;}
+
+
