@@ -1,0 +1,36 @@
+html {background-image: url(../img/dora.jpg)}
+header {
+background-size: contain;
+text-align: center;
+background-repeat: no-repeat;
+color:azure
+}
+header img { border-radius: 25px;}
+h1 {font-size: 200%;
+    letter-spacing: 1px;
+    text-transform: uppercase;}
+
+h2 { background-color: black;
+color: white;
+letter-spacing: 5px;
+text-transform: uppercase;
+text-align: center;
+font-size: larger;
+}
+
+.datos {text-align: center;
+    color: white;
+}
+.años {text-align: center;
+    color: white;
+}
+.boton {text-align: center;
+;
+; }
+
+footer {background-color: rgb(255, 255, 255); color:black;
+    text-align: center;
+}
+.años span {font-weight: bold;}
+.datos span {font-weight: bold;
+}

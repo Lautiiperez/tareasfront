@@ -1,0 +1,38 @@
+* {box-sizing:border-box}
+
+header{background-color: #222222;
+position: relative;
+color:white;
+display: flex;
+height: 100px;}
+
+div { justify-content: flex-end;
+margin-left: 800px;
+padding-top: 20px;}
+
+ul {display: flex}
+
+span {margin: 5px;}
+
+.nombre {color:#39B24A;
+    font-family: 'Roboto', sans-serif;
+padding-top: 30px;
+font-size: 20px;
+}
+
+.nombre2 {padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: -3px;
+    font-size: 20px;
+}
+
+.nombre3 {color: #FC200C;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    margin-left: -3px;
+    font-size: 20px;
+}
+.pizza { 
+    width:80%;
+    height: 80%;
+}
