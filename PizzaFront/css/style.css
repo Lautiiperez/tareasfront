@@ -14,13 +14,14 @@ padding-right: 10px;
 }
 .barra span {padding-left: 10px;}
 
-.pizza {padding-top: 20px}
+.pizza {padding-top: 10px;
+    height: 90px}
 
 main {
     display: flex;
     position: relative;
-    justify-content: space-around; 
-    margin:50px 250px;
+    justify-content:center ; 
+    margin:50px 0px;
 }
 
 img {
@@ -30,17 +31,39 @@ span {
     z-index: 1;}
 
 .segundo {width: 500px;
-    height: 350px;
-    border: solid red;}
+    height: 350px;}
+    /* border: solid red;} */
 
 .podio {text-align: center;
 color: red;
 font-size: 23px;
-font-weight: bold;
+/* font-weight: 1000; */
 padding-top: 20px;}
 
-.top { margin-top: 30px;
-margin-left: 40px;}
+h3 {font-weight: 900;}
 
-.prepa {}
+.top { margin-top: 60px;
+margin-left: 60px;
+font-weight: bold;
+}
 
+.ranking {margin-top: 30px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 20px
+}
+
+li {margin-top: 7px;}
+
+.prepa {position: absolute;
+top: 130px;
+right: 260px;}
+
+footer {background-color: #222222;
+    justify-content: space-between;
+    color:white;
+    display: flex;
+    height: 130px;}
+
+footer img {
+margin: 20px;}
