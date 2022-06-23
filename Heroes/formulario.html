@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
     <title>Formulario</title>
 </head>
 <body>
@@ -19,41 +22,48 @@
     </header>
     <main>
         <br>
+        
         <div class="formu">
-            <h2>Añadi tu Super!</h2>
+            <h2 class="tituform">Añadi tu Super!</h2>
             <h3>Agregá tu personaje favorito completando las opciones.</h3>
             <form action="#">
-                <label for="nombre">Nombre 
-                    <input type="text" id="nombre" name="nombre" placeholder="Batman" minlength="3" maxlength="25" required tabindex="1">
-                </label>
-                <label for="especie">Especie 
+                <div class="cuestionario">
+                <div class="primero">
+                    <label for="nombre">Nombre </label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Batman" minlength="3" maxlength="25" required tabindex="1">
+                    <label for="fecha">Fecha</label>
+                        <input type="date" id="fecha" name="fecha"  min="2000-01-01" max="2022-12-31">
+                    <label for="descripcion"></label>
+                    <textarea name='descripcion' id="descripcion" placeholder="descripcion"></textarea>
+                </div>
+                <div class="segundo">
+                <label for="especie">Especie </label>
                     <select name="especie" id="especie">
                         <option value="Humano">Humano</option>
                         <option value="Hibrido">Hibrido</option>
                         <option value="Animal">Animal</option>
                     </select>
-                </label>
-                <label for="fecha">Fecha</label>
-                    <input type="date" id="fecha" name="fecha"  min="2000-01-01" max="2022-12-31">
+                
                 <label for="foto">Agregar Foto</label>
-                    <input type="file" id="foto" accept=".jpg, .pdf, .png" name="foto">
-                <label for="descripcion"></label>
-                    <textarea name='descripcion' id="descripcion" placeholder="descripcion"></textarea>
-                <p>Poderes</p>
-                    <label for="poderes"> Volar</label>
-                        <input type="checkbox" id="poderes" name="poderes" value="V">
-                    <label for="lenguaje2"> Super Inteligencia</label>
-                        <input type="checkbox" id="poderes" name="poderes" value="SI">
-                    <label for="lenguaje3"> Vista de Rayo Laser</label>
-                        <input type="checkbox" id="poderes" name="poderes" value="RL">
-                    <label for="lenguaje3"> Billetera Gorda</label>
-                        <input type="checkbox" id="poderes" name="poderes" value="BG">
-                <hr>
+                <input type="file" id="foto" accept=".jpg, .pdf, .png" name="foto">
+                <p class="poderes">Poderes</p>
+                <label for="poderes"> <input type="checkbox" id="poderes" name="poderes" value="V">Volar
+                    </label>
+                <label for="lenguaje2"><input type="checkbox" id="poderes" name="poderes" value="SI">Super Inteligencia</label>
+                
+                <label for="lenguaje3"><input type="checkbox" id="poderes" name="poderes" value="RL">Vista de Rayo Laser</label>
+                
+                <label for="lenguaje3"><input type="checkbox" id="poderes" name="poderes" value="BG">Billetera Gorda</label>
+                        
+                <hr class="raya">
                 <p>Tipo de Personaje</p>
-                 <label for="tipo">Heroe/heroina</label>
-                    <input type="radio" id="tipoe" name="tipo" value="H">
-                 <label for="heroe">Villano/Villana</label>
-                    <input type="radio" id="tipo" name="tipo" value="V">
+                 <label for="tipo"><input type="radio" id="tipoe" name="tipo" value="H">Heroe/heroina</label>
+                    
+                 <label for="heroe"><input type="radio" id="tipo" name="tipo" value="V">Villano/Villana</label>
+                    
+                </div>
+                </div>
+                <button type="submit">Añadir</button>
             </form>
         </div>
 <br>

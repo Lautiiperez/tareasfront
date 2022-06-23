@@ -16,7 +16,7 @@ padding-top: 13px;}
         position: relative;  
         margin-bottom: -33px;}
 
-h3 {padding: 5px;
+.descu {padding: 5px;
 font-size: 15px;}
 
 .personajes { background-color:#F3F3F3 ;
@@ -68,8 +68,8 @@ border-radius: 100px;
     z-index: 3
 }
 
-h2 { padding-top: 130px;
-text-align: center;}
+.titu { padding-top: 130px;
+    text-align: center;}
 
 .boton { background-color: #00669F;
 color: white;
@@ -87,13 +87,39 @@ justify-content: space-around;
 .formu {
     background-color: #00669F;
     color: white;
-    width: 50vw;
-    height: 40vw;
-    padding-bottom: 20px;
+    width: 600px;
+    height: 480px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     display: flex;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    justify-content: space-around;
     flex-direction:column;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+.cuestionario { 
+    display: flex;
+    flex-direction:row;
 }
 
+.primero, .segundo {
+        display: flex;
+        flex-direction:column
+}
+.segundo { margin-left: 30px;}
+.poderes {
+    flex-direction:column 
+}
+
+textarea {
+    height: 200px;
+}
+
+main {display:flex;
+    justify-content: center;
+align-items: center;}
 
 
 
