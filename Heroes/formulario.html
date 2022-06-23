@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="desc"><h3>Descuentos 20%</h3></div>
+    <header>
+         <nav>
+            <h1>Heroes</h1>
+        </nav>
+    </header>
+    <main>
+        <br>
+        <div class="formu">
+            <h2>Añadi tu Super!</h2>
+            <h3>Agregá tu personaje favorito completando las opciones.</h3>
+            <form action="#">
+                <label for="nombre">Nombre 
+                    <input type="text" id="nombre" name="nombre" placeholder="Batman" minlength="3" maxlength="25" required tabindex="1">
+                </label>
+                <label for="especie">Especie 
+                    <select name="especie" id="especie">
+                        <option value="Humano">Humano</option>
+                        <option value="Hibrido">Hibrido</option>
+                        <option value="Animal">Animal</option>
+                    </select>
+                </label>
+                <label for="fecha">Fecha</label>
+                    <input type="date" id="fecha" name="fecha"  min="2000-01-01" max="2022-12-31">
+                <label for="foto">Agregar Foto</label>
+                    <input type="file" id="foto" accept=".jpg, .pdf, .png" name="foto">
+                <label for="descripcion"></label>
+                    <textarea name='descripcion' id="descripcion" placeholder="descripcion"></textarea>
+                <p>Poderes</p>
+                    <label for="poderes"> Volar</label>
+                        <input type="checkbox" id="poderes" name="poderes" value="V">
+                    <label for="lenguaje2"> Super Inteligencia</label>
+                        <input type="checkbox" id="poderes" name="poderes" value="SI">
+                    <label for="lenguaje3"> Vista de Rayo Laser</label>
+                        <input type="checkbox" id="poderes" name="poderes" value="RL">
+                    <label for="lenguaje3"> Billetera Gorda</label>
+                        <input type="checkbox" id="poderes" name="poderes" value="BG">
+                <hr>
+                <p>Tipo de Personaje</p>
+                 <label for="tipo">Heroe/heroina</label>
+                    <input type="radio" id="tipoe" name="tipo" value="H">
+                 <label for="heroe">Villano/Villana</label>
+                    <input type="radio" id="tipo" name="tipo" value="V">
+            </form>
+        </div>
+<br>
+    </main>
+    <footer>
+        <div class="foot">
+           <div class="txt"><p>Todos los derechos reservados a FRONT END 1</p></div>
+           <img class="logog" src="img/git.png" alt="GitHub">
+        </div>
+      </footer>
+</body>
+</html>
