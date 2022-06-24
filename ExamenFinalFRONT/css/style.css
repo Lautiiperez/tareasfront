@@ -1,0 +1,49 @@
+* {box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/* FONDO */
+body {
+    background-image: url(../img/bg-tablet-pattern.svg) ;
+    background-repeat:repeat;
+    background-position: 160vw 50vw;
+}
+
+/* BARRA NAV */
+
+nav div {
+    display:flex;
+    justify-content: space-around;
+    width: 100vw;
+    align-items: center;
+}
+
+nav div ul {
+    display: flex;
+  }
+  
+  nav div ul li{
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+.logo1 {
+    width: 120px;
+    height: 20px;
+    
+}
+
+/* BOTONES GET STARTED */
+
+button {
+    background-color: #F3603B;
+    color: white;
+    Width: 134px;
+    Height:44px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 13.18px;
+    box-shadow: 0px 6px 5px rgba(243, 96, 59,0.2);
+}
