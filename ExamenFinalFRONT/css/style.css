@@ -18,11 +18,11 @@ nav div {
     align-items: center;
 }
 
-nav div ul {
+nav div .compu {
     display: flex;
   }
   
-  nav div ul li{
+  nav div .compu li{
     margin-left: 30px;
   }
 
@@ -257,9 +257,9 @@ footer {
     margin-left: 10px;
 }
 
-.Fprimero a:hover {
+/* .Fprimero a:hover {
     
-}
+} */
 
 /* SEGUNDA PARTE */
 footer li a {
@@ -313,12 +313,170 @@ input[type=email] {
 }
 
 @media (min-width: 376px){
-.celu { display: none;
+    .celu { 
+        display: none;
+        }
+    .FoterCelu {
+        display: none;
+    }
+
 
 }
-}
+
+                                            /* VERSION CELU */
 @media (max-width: 375px){
-    .compu { display: none;
-    
+    body {
+        background-repeat:repeat-x;
+        background-size: 600px;
+        background-position:50% 0%;
     }
+
+/* OCULTO EL FOOTER DE LA COMPU */
+    .Fprimero,.FsegundaBis,.Fsegunda,.Ftercero{
+        display: none;
+    }
+
+                                /* BARRA NAVEGACION */
+    .compu { display: none !important}
+
+    header button {
+        display:none;
+    }
+
+    .celu li{ list-style: none;
+    }
+
+    .celu li a {
+        background-color: #1E1E26;
+        color:#ee8f77 ;
+        padding: 6px 10px;
+        display:block
+    }
+
+    .celu>li {
+        float:left;
+            }
+
+    .celu li ul {
+        display: none;
+        position: absolute;
+        right: -70px;
+    }
+
+    .celu li:hover>ul{
+        display: block;
+    }
+    nav div {
+        justify-content: space-between;
+    }
+
+    .logo1 {
+        padding-left: 10px;
+    }
+                                       /* CUADROS */
+
+    .cuadros>div {
+        width: 90vw;
+        padding: 15px;
+    }
+
+/* CUADRO UNO */
+    .Cuno h1{
+        text-align: center;
+        font-size: 35px;
+        /* font-weight: 600; NO ME DEJA :( */
+    }
+
+    .Cuno p {
+        text-align: center;
+        margin: -20px 0px 20px 0px;
+        padding: 0px 5px;
+    }
+
+    .Cuno>button {
+        margin-left: 80px ;
+    }
+
+/* CUADRO DOS */
+    .Cdos {
+        order:-1;
+        margin-left: -25PX;
+    }
+    .Cdos img {
+        width: 110%;
+        
+    }
+
+/* CUADRO TRES */
+    .Ctres h2{
+        text-align: center;
+        font-size: 30px
+    }
+    .Ctres p {
+        text-align: center;
+        margin: -20px 0px 20px 0px;
+        padding: 0px 5px;
+    }
+
+ /* CUADRO CUATRO */   
+    .Ccuatro h4{
+        background-color: #ffece8;
+        padding: 5px 0px 5px 50px;
+        margin-left: -70px;
+    }
+
+    .Ccuatro button{
+        z-index: 1;
+        top: 36px;
+        box-shadow: none;
+    } 
+
+                                         /* CARTAS */
+
+    .cartas img {
+        width: 20%;
+        position: relative;
+        Top: -55px;
+        left: 15px; 
+        }
+
+
+
+
+                                         /* BANNER NARANJA */
+    .banner {
+        flex-direction: column;
+        height: 280px;
+        width: 360px;
+    }
+    .banner h2 {
+        font-size: 40px;
+        text-align: center;
+        padding: 0px 30px;
+    }
+    .banner>div{
+        width: 100vw;
+    }
+    .Bbanner {
+        padding-left: 30vw;
+    }
+
+
+
+                                                        /* FOOTER */
+
+/* PRIMERA PARTE */
+
+    footer {
+        flex-direction: column;
+        height: 600px;
+        width: 360px;
+    }
+
+    /* ORDEN FOOTER */
+    
+
+
 }
+
+
