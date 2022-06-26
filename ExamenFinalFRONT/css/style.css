@@ -317,6 +317,7 @@ input[type=email] {
     margin-left: 40px;
 }
 
+/* PARTES DE LA VERSION CELU OCULTAS EN VERSION COMPU */
 @media (min-width: 376px){
     .celu { 
         display: none;
@@ -324,7 +325,9 @@ input[type=email] {
     .FoterCelu {
         display: none;
     }
-
+    .cartascelular {
+        display: none;
+    }
 
 }
 
@@ -447,14 +450,101 @@ input[type=email] {
 
                                          /* CARTAS */
 
-    .cartas img {
-        width: 20%;
-        position: relative;
-        Top: -55px;
-        left: 15px; 
-        }
+    .cartas {
+        display: none;
+    }
 
+    /* CARTAS PERSONAS */
+.cartascelular {
+    display:flex ;
+    height: 230px;
+}
 
+/* OCULTO CARTAS */
+.Cartauno li, .Cartados li, .Cartatres li{ 
+    list-style: none;
+}
+
+.Cartauno li h4, .Cartauno li p,.Cartados li h4, .Cartados li p,.Cartatres li h4, .Cartatres li p {
+    display:block;
+}
+
+.Cartauno>li,.Cartados>li,.Cartatres>li {
+    float:left;
+}
+
+.Cartauno li ul,.Cartados li ul,.Cartatres li ul {
+    display: none;
+    position: absolute;
+}
+
+.Cartauno li:hover>ul,.Cartados li:hover>ul,.Cartatres li:hover>ul{
+    display: block;
+}
+
+.Cartauno img:hover,.Cartados img:hover,.Cartatres img:hover {
+    background-color:#f07657;
+}
+
+/* IMAGENES */
+.cartascelular img{
+    width: 40px;
+    margin-left: 20px;
+}
+
+/* TEXTOS */
+.cartascelular p{
+    width: 80vw;
+    color: #B9B9C1;
+    text-align: center;
+    background-color: #FAFAFA;
+    padding: 60px 15px 15px 15px;
+    margin-top: -90px
+}
+
+/* TEXTO CARTA UNO */
+.Cartauno p {
+    margin-left: -50px;
+}
+
+.Cartauno h4 {
+    font-size: 25px;
+    margin-left: 50px;
+    position: relative; 
+    top: -10px;
+}
+
+/* TEXTO CARTA DOS */
+.Cartados p{
+    margin-left: -150px;
+    margin-top: -90px;
+}
+
+.Cartados h4{
+    font-size: 25px;
+    position: relative;
+    left: -50px;
+    top: -10px;
+}
+
+/* TEXTO CARTA DOS */
+.Cartatres p{
+    position: relative;
+    z-index: -1;
+    
+}
+
+.Cartatres h4{
+    font-size: 25px;
+    position: relative;
+    left: -150px;
+    top: -10px;
+}
+
+/* BOTON CARTAS */
+.Bcartas {
+    margin-bottom: -90px;
+}
 
 
                                          /* BANNER NARANJA */

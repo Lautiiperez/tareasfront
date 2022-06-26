@@ -1,0 +1,66 @@
+
+/* body {display: flex;} */
+/* CARTAS PERSONAS */
+.cartascelular {
+    display:flex ;
+}
+
+/* OCULTO CARTAS */
+.Cartauno li, .Cartados li, .Cartatres li{ 
+    list-style: none;
+}
+
+.Cartauno li h4, .Cartauno li p,.Cartados li h4, .Cartados li p,.Cartatres li h4, .Cartatres li p {
+    display:block;
+}
+
+.Cartauno>li,.Cartados>li,.Cartatres>li {
+    float:left;
+}
+
+.Cartauno li ul,.Cartados li ul,.Cartatres li ul {
+    display: none;
+    position: absolute;
+}
+
+.Cartauno li:hover>ul,.Cartados li:hover>ul,.Cartatres li:hover>ul{
+    display: block;
+    
+}
+
+.Cartauno img:hover{
+    background-color: black;
+}
+
+/* IMAGENES */
+.cartascelular img{
+    width: 40px;
+    margin-left: 20px;
+}
+
+.cartascelular p{
+    width: 80vw;
+
+    color: #B9B9C1;
+    text-align: center;
+    background-color: #FAFAFA;
+    padding: 60px 15px 15px 15px;
+    margin-top: -90px
+}
+
+.Cartauno p {
+    margin-left: -60px;
+}
+
+.Cartauno h4 {
+    font-size: 25px;
+    margin-left: 50px;
+    position: relative; 
+    top: -10px;
+}
+
+
+
+
+
+
