@@ -32,7 +32,7 @@ nav div .compu {
   color:black
 }
 
-nav a:hover {
+nav li a:hover {
     color:#8C8C94
 }
 
@@ -163,10 +163,10 @@ a {
 /* FOTOS CARTAS */
 
 .cartas img {
-    width: 20%;
+    width: 17%;
     position: relative;
     top: -55px;
-    left: 165px; 
+    left: 170px; 
 }
 
 .cartas h4 {
@@ -255,11 +255,16 @@ footer {
 }
 .Fprimero a{
     margin-left: 10px;
-}
+    }
+    .LogoF {
+        margin-left: 15px;
+    }
 
-/* .Fprimero a:hover {
-    
-} */
+    .FprimeroBis {
+        margin-top: 90px;
+    }
+
+/* .Fprimero a:hover poner color a los iconos */
 
 /* SEGUNDA PARTE */
 footer li a {
@@ -347,7 +352,7 @@ input[type=email] {
     }
 
     .celu li a {
-        background-color: #1E1E26;
+        background-color: #2d2d41;
         color:#ee8f77 ;
         padding: 6px 10px;
         display:block
@@ -355,12 +360,14 @@ input[type=email] {
 
     .celu>li {
         float:left;
-            }
+        margin-right: 30px;
+    }
 
     .celu li ul {
         display: none;
         position: absolute;
-        right: -70px;
+        right: -10px;
+        top:55px;
     }
 
     .celu li:hover>ul{
@@ -421,8 +428,15 @@ input[type=email] {
  /* CUADRO CUATRO */   
     .Ccuatro h4{
         background-color: #ffece8;
-        padding: 5px 0px 5px 50px;
+        padding: 5px 10px 5px 50px;
+        width: 330px;
         margin-left: -70px;
+    }
+
+    .Ccuatro p{
+        margin-left: -80px;
+        width: 330px;
+        font-size: 14px;
     }
 
     .Ccuatro button{
@@ -446,19 +460,20 @@ input[type=email] {
                                          /* BANNER NARANJA */
     .banner {
         flex-direction: column;
-        height: 280px;
+        height: 330px;
         width: 360px;
     }
     .banner h2 {
         font-size: 40px;
         text-align: center;
-        padding: 0px 30px;
+        margin: 100px 30px 20px 30px;
     }
     .banner>div{
         width: 100vw;
     }
     .Bbanner {
         padding-left: 30vw;
+        margin-bottom: 90px;
     }
 
 
@@ -469,12 +484,58 @@ input[type=email] {
 
     footer {
         flex-direction: column;
-        height: 600px;
+        height: 450px;
         width: 360px;
+        
     }
 
     /* ORDEN FOOTER */
+    .FoterCelu {
+        display: flex;
+        flex-direction: column;
+        margin-top: 220px;
+    }
     
+    .FsegundaCelu {
+    display: flex;
+    }
+
+    .FterceroCelu {
+    order: -1;
+    margin: -200px 0px 0px 20px;
+    }
+
+    .FsegundaCelu {
+        order: 0;
+        margin-top: 20px;
+    }
+
+    .FsegundaCelu>div {
+        margin-right: 40px;
+    }
+
+    .FprimeroCelu {
+        order:1;
+        margin: 30px 0px 0px 30px;
+    }
+
+    .FprimeroCelu>div a{
+        margin-right: 30px;
+    }
+
+    .FlogoCelu {
+        margin: 40px 0px 0px 50px;
+        width: 50%;
+    }
+
+    .CopyCelu {
+        order:2;
+        color:#8C8C94;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 30px;
+    }
 
 
 }
