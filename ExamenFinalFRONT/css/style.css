@@ -531,13 +531,13 @@ input[type=email] {
 .Cartatres p{
     position: relative;
     z-index: -1;
-    
+    left: -250px;
 }
 
 .Cartatres h4{
     font-size: 25px;
     position: relative;
-    left: -150px;
+    left: -180px;
     top: -10px;
 }
 
