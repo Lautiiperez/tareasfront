@@ -367,6 +367,7 @@ input[type=email] {
         background-repeat:no-repeat;
         background-size: 400px;
         background-position:-250% -2%;
+        margin: 0;
     }
 
     .cuadros {
@@ -394,19 +395,22 @@ input[type=email] {
         background-color: rgb(35, 44, 81);;
         color:#ee8f77 ;
         padding: 6px 10px;
-        display:block
+        display:block;
+        border-radius: 40%;
+        text-align: center;
     }
 
     .celu>li {
         float:left;
-        margin-right: 30px;
+        margin: 100% 0%  0 -140%;
+
     }
 
     .celu li ul {
         display: none;
         position: absolute;
-        right: -10px;
-        top:55px;
+        left: 64%;
+        top:13%;
     }
     .celu li a:hover{
         background-color:rgb(61, 66, 83);
@@ -419,16 +423,18 @@ input[type=email] {
     }
 
     .logo1 {
-        padding-left: 10px;
+        margin: 30px 0px 0px 20px;
     }
                                        /* CUADROS */
 
     .cuadros>div {
         width: 90vw;
         padding: 15px;
+        margin-left: -30px;
     }
 
 /* CUADRO UNO */
+
     .Cuno h1{
         text-align: center;
         font-size: 35px;
@@ -439,6 +445,7 @@ input[type=email] {
         text-align: center;
         margin: -20px 0px 20px 0px;
         padding: 0px 5px;
+
     }
 
     .Cuno>button {
@@ -469,8 +476,8 @@ input[type=email] {
  /* CUADRO CUATRO */   
     .Ccuatro h4{
         background-color: #ffece8;
-        padding: 5px 10px 5px 50px;
-        width: 330px;
+        padding: 5px 10px 5px 60px;
+        width: 346px;
         margin-left: -70px;
     }
 
@@ -545,11 +552,12 @@ input[type=email] {
         background-color: #FAFAFA;
         padding: 60px 15px 15px 15px;
         margin-top: -90px;
+
     }
 
 /* TEXTO CARTA UNO */
     .Cartauno p {
-        margin-left: -50px;
+        margin-left: -40px;
         position: relative;
         z-index: -1;
     }
@@ -565,9 +573,9 @@ input[type=email] {
 /* TEXTO CARTA DOS */
     .Cartados p{
         position: relative;
-        margin-left: -150px;
+        left: -140px;
         z-index: -1;
-        margin-top: -90px;
+        font-size: 13.5px;
     }
 
     .Cartados h4{
@@ -582,7 +590,7 @@ input[type=email] {
     .Cartatres p{
         position: relative;
         z-index: -1;
-        left: -250px;
+        left: -240px;
     }
 
     .Cartatres h4{
@@ -596,7 +604,7 @@ input[type=email] {
                                             /* BOTON CARTAS */
     .Bcartas {
         margin-bottom: -30%;
-        margin-top: 2%;
+        margin-top: 5%;
     }
 
 
@@ -604,7 +612,9 @@ input[type=email] {
     .banner {
         flex-direction: column;
         height: 330px;
-        width: 360px;
+        width: 100vw;
+        background-position: -280px -60px;
+        background-size: 300%;
     }
     .banner h2 {
         font-size: 40px;
@@ -628,8 +638,8 @@ input[type=email] {
     footer {
         flex-direction: column;
         height: 450px;
-        width: 360px;
-        
+        width: 100vw;
+        padding: 0px;
     }
 
     /* ORDEN FOOTER */
