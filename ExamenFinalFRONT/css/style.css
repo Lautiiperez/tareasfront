@@ -497,6 +497,7 @@ input[type=email] {
         list-style: none;
     }
 
+/* DESOCULTO CARTAS */
     .Cartauno li h4, .Cartauno li p,.Cartados li h4, .Cartados li p,.Cartatres li h4, .Cartatres li p {
         display:block;
     }
@@ -511,11 +512,12 @@ input[type=email] {
     }
 
     .Cartauno li:hover>ul,.Cartados li:hover>ul,.Cartatres li:hover>ul{
-        display: block;
+        display: block;    
     }
 
     .Cartauno img:hover,.Cartados img:hover,.Cartatres img:hover {
-        background-color:#f07657;
+        /* background-color:#f07657; */
+        transform: scale(2);
     }
 
 /* IMAGENES */
@@ -531,12 +533,14 @@ input[type=email] {
         text-align: center;
         background-color: #FAFAFA;
         padding: 60px 15px 15px 15px;
-        margin-top: -90px
+        margin-top: -90px;
     }
 
 /* TEXTO CARTA UNO */
     .Cartauno p {
         margin-left: -50px;
+        position: relative;
+        z-index: -1;
     }
 
     .Cartauno h4 {
@@ -549,7 +553,9 @@ input[type=email] {
 
 /* TEXTO CARTA DOS */
     .Cartados p{
+        position: relative;
         margin-left: -150px;
+        z-index: -1;
         margin-top: -90px;
     }
 
@@ -561,7 +567,7 @@ input[type=email] {
         color:rgb(35, 44, 81);
     }
 
-/* TEXTO CARTA DOS */
+/* TEXTO CARTA tres */
     .Cartatres p{
         position: relative;
         z-index: -1;
