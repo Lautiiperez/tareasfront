@@ -37,10 +37,11 @@ nav div ul li a {
     font-size: 13px;
     font-weight: bold;
     color:rgb(35, 44, 81);
+    transition: all 0.3s;
 }
 
 nav li a:hover {
-    color:#8C8C94
+    color:rgb(159, 170, 211);
 }
 
 .logo1 {
@@ -58,6 +59,7 @@ button {
     border: none;
     border-radius: 20px; 
     box-shadow: 0px 6px 5px rgba(243, 96, 59,0.2);
+    transition: all 0.3s;
 }
 
 button:hover {
@@ -128,6 +130,10 @@ a {
     font-weight: bold;
     position:relative;
     top:30px ;
+}
+
+.Ccuatro button:hover{
+    background-color: #F3603B;
 }
 
 .Ccuatro h4{
@@ -224,6 +230,7 @@ a {
 .Bbanner>button {
     background-color: #FFFFFF !important;
     box-shadow: 0px 6px 5px rgba(63, 26, 17, 0.2);
+    transition: all 0.3s;
 }
 
 .Bbanner {
@@ -234,6 +241,7 @@ a {
     color:#F3603B;
     font-weight: 800;
     font-size: 13.18px; 
+    transition: all 0.3s;
 }
 
 .Bbanner>button>a:hover{
@@ -267,12 +275,12 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     height: 100%;
-       /* poner space-betwen */
 }
 
 .Fprimero a{
     margin-left: 10px;
     }
+
 
 .FprimeroBis a img:hover{
     filter: invert(49%) sepia(77%) saturate(2757%) hue-rotate(338deg) brightness(99%) contrast(92%);
@@ -283,12 +291,11 @@ footer {
     }
 
 
-/* .Fprimero a:hover poner color a los iconos */
-
 /* SEGUNDA PARTE */
 footer li a {
     font-size: 13px;
     color:white;
+    transition: all 0.3s;
 }
 
 footer a:hover {
@@ -315,6 +322,7 @@ input[type=submit] {
     width: 60px;
     border: none;
     font-weight: bold;
+    transition: all 0.3s;
 }
 
 input[type=submit]:hover {
@@ -356,13 +364,15 @@ input[type=email] {
                                             /* VERSION CELU */
 @media (max-width: 375px){
     body {
-        background-repeat:repeat-x;
-        background-size: 600px;
-        background-position:50% 0%;
+        background-repeat:no-repeat;
+        background-size: 400px;
+        background-position:-250% -2%;
     }
 
     .cuadros {
-        background-image: none;
+        background-image: no-repeat;
+        background-size: 300px;
+        background-position: 390% 32%;
     }
 
 /* OCULTO EL FOOTER DE LA COMPU */
@@ -530,6 +540,7 @@ input[type=email] {
     .cartascelular p{
         width: 80vw;
         color: #B9B9C1;
+        font-size: 0.9rem;
         text-align: center;
         background-color: #FAFAFA;
         padding: 60px 15px 15px 15px;
@@ -584,7 +595,8 @@ input[type=email] {
 
                                             /* BOTON CARTAS */
     .Bcartas {
-        margin-bottom: -90px;
+        margin-bottom: -30%;
+        margin-top: 2%;
     }
 
 
