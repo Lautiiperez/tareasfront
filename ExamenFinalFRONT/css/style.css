@@ -84,7 +84,9 @@ a {
 /* CUADRO UNO */
 
 .Cuno h1{
-    font-size: 50px ;
+    font-size: 3rem ;
+    font-weight: 800;
+    color:rgb (35, 44, 81);
     }
 
 .Cuno p {
@@ -102,6 +104,7 @@ a {
 /* CUADRO TRES */
 .Ctres h2 {
     font-size: 35px;
+    color:rgb (35, 44, 81);
     /* font-weight: 800; */
 }
 
@@ -123,7 +126,8 @@ a {
 .Ccuatro h4{
     position: relative;
     left: 80px;
-    top:-15px
+    color:rgb (35, 44, 81);
+    top:-15px;
 }
 
 .Ccuatro p {
@@ -147,6 +151,7 @@ a {
     justify-content: center;
     width: 100vw;
     font-size: 20px;
+    color:rgb (35, 44, 81);
 }
 
 /* CARTAS */
@@ -251,7 +256,9 @@ footer {
 .Fprimero {
     display: flex;
     flex-direction: column;
-   /* poner space-betwen */
+    justify-content: space-around;
+    height: 100%;
+       /* poner space-betwen */
 }
 .Fprimero a{
     margin-left: 10px;
@@ -260,9 +267,6 @@ footer {
         margin-left: 15px;
     }
 
-    .FprimeroBis {
-        margin-top: 90px;
-    }
 
 /* .Fprimero a:hover poner color a los iconos */
 
@@ -372,7 +376,9 @@ input[type=email] {
         right: -10px;
         top:55px;
     }
-
+    .celu li a:hover{
+        background-color: #595983
+    }
     .celu li:hover>ul{
         display: block;
     }
