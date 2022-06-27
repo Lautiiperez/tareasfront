@@ -5,9 +5,16 @@
                                                         /* FONDO */
 body {
     background-image: url(../img/bg-tablet-pattern.svg) ;
-    background-repeat:repeat;
-    background-position: 160vw 50vw;
+    background-repeat:no-repeat;
+    background-position: 58vw -15vw;
+    }
+
+.cuadros {
+    background-image: url(../img/bg-tablet-pattern.svg) ;
+    background-repeat:no-repeat;
+    background-position:-30vw 64vw ;
 }
+
 
                                                         /* BARRA NAV */
 
@@ -20,16 +27,16 @@ nav div {
 
 nav div .compu {
     display: flex;
-  }
-  
-  nav div .compu li{
-    margin-left: 30px;
-  }
+}
 
-  nav div ul li a {
-  font-size: 13px;
-  font-weight: bold;
-  color:black
+nav div .compu li{
+    margin-left: 30px;
+}
+
+nav div ul li a {
+    font-size: 13px;
+    font-weight: bold;
+    color:rgb(35, 44, 81);
 }
 
 nav li a:hover {
@@ -86,7 +93,7 @@ a {
 .Cuno h1{
     font-size: 3rem ;
     font-weight: 800;
-    color:rgb (35, 44, 81);
+    color: rgb(35, 44, 81);
     }
 
 .Cuno p {
@@ -104,7 +111,7 @@ a {
 /* CUADRO TRES */
 .Ctres h2 {
     font-size: 35px;
-    color:rgb (35, 44, 81);
+    color:rgb(35, 44, 81);
     /* font-weight: 800; */
 }
 
@@ -126,7 +133,7 @@ a {
 .Ccuatro h4{
     position: relative;
     left: 80px;
-    color:rgb (35, 44, 81);
+    color:rgb(35, 44, 81);
     top:-15px;
 }
 
@@ -151,7 +158,8 @@ a {
     justify-content: center;
     width: 100vw;
     font-size: 20px;
-    color:rgb (35, 44, 81);
+    color:rgb(35, 44, 81);
+    margin-top: -100px;
 }
 
 /* CARTAS */
@@ -179,6 +187,7 @@ a {
     justify-content: center;
     margin-top: -30px;
     font-weight: bold;
+    color:rgb(35, 44, 81);
 }
 
 .cartas p {
@@ -215,7 +224,6 @@ a {
 .Bbanner>button {
     background-color: #FFFFFF !important;
     box-shadow: 0px 6px 5px rgba(63, 26, 17, 0.2);
-        
 }
 
 .Bbanner {
@@ -253,6 +261,7 @@ footer {
     align-items: center;
     padding: 20px;
 }
+
 .Fprimero {
     display: flex;
     flex-direction: column;
@@ -260,10 +269,16 @@ footer {
     height: 100%;
        /* poner space-betwen */
 }
+
 .Fprimero a{
     margin-left: 10px;
     }
-    .LogoF {
+
+.FprimeroBis a img:hover{
+    filter: invert(49%) sepia(77%) saturate(2757%) hue-rotate(338deg) brightness(99%) contrast(92%);
+    }
+
+.LogoF {
         margin-left: 15px;
     }
 
@@ -275,6 +290,7 @@ footer li a {
     font-size: 13px;
     color:white;
 }
+
 footer a:hover {
     color: #F3603B;
 }
@@ -300,6 +316,7 @@ input[type=submit] {
     border: none;
     font-weight: bold;
 }
+
 input[type=submit]:hover {
     background-color:#f07657;
 }
@@ -320,6 +337,7 @@ input[type=email] {
     margin-top: 60px;
     margin-left: 40px;
 }
+
 
 /* PARTES DE LA VERSION CELU OCULTAS EN VERSION COMPU */
 @media (min-width: 376px){
@@ -343,6 +361,10 @@ input[type=email] {
         background-position:50% 0%;
     }
 
+    .cuadros {
+        background-image: none;
+    }
+
 /* OCULTO EL FOOTER DE LA COMPU */
     .Fprimero,.FsegundaBis,.Fsegunda,.Ftercero{
         display: none;
@@ -359,7 +381,7 @@ input[type=email] {
     }
 
     .celu li a {
-        background-color: #2d2d41;
+        background-color: rgb(35, 44, 81);;
         color:#ee8f77 ;
         padding: 6px 10px;
         display:block
@@ -377,7 +399,7 @@ input[type=email] {
         top:55px;
     }
     .celu li a:hover{
-        background-color: #595983
+        background-color:rgb(61, 66, 83);
     }
     .celu li:hover>ul{
         display: block;
@@ -454,103 +476,110 @@ input[type=email] {
         box-shadow: none;
     } 
 
+    .Tcartas{
+        margin-top: -30px;
+    }
+
                                          /* CARTAS */
 
     .cartas {
         display: none;
     }
 
-    /* CARTAS PERSONAS */
-.cartascelular {
-    display:flex ;
-    height: 230px;
-}
+                                          /* CARTAS PERSONAS */
+    .cartascelular {
+        display:flex ;
+        height: 230px;
+    }
 
 /* OCULTO CARTAS */
-.Cartauno li, .Cartados li, .Cartatres li{ 
-    list-style: none;
-}
+    .Cartauno li, .Cartados li, .Cartatres li{ 
+        list-style: none;
+    }
 
-.Cartauno li h4, .Cartauno li p,.Cartados li h4, .Cartados li p,.Cartatres li h4, .Cartatres li p {
-    display:block;
-}
+    .Cartauno li h4, .Cartauno li p,.Cartados li h4, .Cartados li p,.Cartatres li h4, .Cartatres li p {
+        display:block;
+    }
 
-.Cartauno>li,.Cartados>li,.Cartatres>li {
-    float:left;
-}
+    .Cartauno>li,.Cartados>li,.Cartatres>li {
+        float:left;
+    }
 
-.Cartauno li ul,.Cartados li ul,.Cartatres li ul {
-    display: none;
-    position: absolute;
-}
+    .Cartauno li ul,.Cartados li ul,.Cartatres li ul {
+        display: none;
+        position: absolute;
+    }
 
-.Cartauno li:hover>ul,.Cartados li:hover>ul,.Cartatres li:hover>ul{
-    display: block;
-}
+    .Cartauno li:hover>ul,.Cartados li:hover>ul,.Cartatres li:hover>ul{
+        display: block;
+    }
 
-.Cartauno img:hover,.Cartados img:hover,.Cartatres img:hover {
-    background-color:#f07657;
-}
+    .Cartauno img:hover,.Cartados img:hover,.Cartatres img:hover {
+        background-color:#f07657;
+    }
 
 /* IMAGENES */
-.cartascelular img{
-    width: 40px;
-    margin-left: 20px;
-}
+    .cartascelular img{
+        width: 40px;
+        margin-left: 20px;
+    }
 
 /* TEXTOS */
-.cartascelular p{
-    width: 80vw;
-    color: #B9B9C1;
-    text-align: center;
-    background-color: #FAFAFA;
-    padding: 60px 15px 15px 15px;
-    margin-top: -90px
-}
+    .cartascelular p{
+        width: 80vw;
+        color: #B9B9C1;
+        text-align: center;
+        background-color: #FAFAFA;
+        padding: 60px 15px 15px 15px;
+        margin-top: -90px
+    }
 
 /* TEXTO CARTA UNO */
-.Cartauno p {
-    margin-left: -50px;
-}
+    .Cartauno p {
+        margin-left: -50px;
+    }
 
-.Cartauno h4 {
-    font-size: 25px;
-    margin-left: 50px;
-    position: relative; 
-    top: -10px;
-}
-
-/* TEXTO CARTA DOS */
-.Cartados p{
-    margin-left: -150px;
-    margin-top: -90px;
-}
-
-.Cartados h4{
-    font-size: 25px;
-    position: relative;
-    left: -50px;
-    top: -10px;
-}
+    .Cartauno h4 {
+        font-size: 25px;
+        margin-left: 50px;
+        position: relative; 
+        top: -10px;
+        color:rgb(35, 44, 81);
+    }
 
 /* TEXTO CARTA DOS */
-.Cartatres p{
-    position: relative;
-    z-index: -1;
-    left: -250px;
-}
+    .Cartados p{
+        margin-left: -150px;
+        margin-top: -90px;
+    }
 
-.Cartatres h4{
-    font-size: 25px;
-    position: relative;
-    left: -180px;
-    top: -10px;
-}
+    .Cartados h4{
+        font-size: 25px;
+        position: relative;
+        left: -50px;
+        top: -10px;
+        color:rgb(35, 44, 81);
+    }
 
-/* BOTON CARTAS */
-.Bcartas {
-    margin-bottom: -90px;
-}
+/* TEXTO CARTA DOS */
+    .Cartatres p{
+        position: relative;
+        z-index: -1;
+        left: -250px;
+    }
+
+    .Cartatres h4{
+        font-size: 25px;
+        position: relative;
+        left: -180px;
+        top: -10px;
+        color:rgb(35, 44, 81);
+    }
+
+                                            /* BOTON CARTAS */
+    .Bcartas {
+        margin-bottom: -90px;
+    }
 
 
                                          /* BANNER NARANJA */
@@ -619,6 +648,10 @@ input[type=email] {
         margin-right: 30px;
     }
 
+    .FprimeroCelu a img:hover{
+        filter: invert(49%) sepia(77%) saturate(2757%) hue-rotate(338deg) brightness(99%) contrast(92%);
+    }
+
     .FlogoCelu {
         margin: 40px 0px 0px 50px;
         width: 50%;
@@ -632,6 +665,8 @@ input[type=email] {
         text-align: center;
         margin-top: 30px;
     }
+
+
 
 
 }
