@@ -177,7 +177,7 @@ a {
     display: flex;
     width: 31vw;
     height: 180px;
-    background-color:#FAFAFA ;
+    background-color:rgb(245, 245, 245) ;
     flex-direction: column;
     margin-top: 60px;
     justify-content: center;
@@ -399,17 +399,18 @@ input[type=email] {
     }
 
     .celu li a {
-        background-color: rgb(35, 44, 81);;
+        background-color: rgb(245, 245, 245);
         color:#ee8f77 ;
         padding: 6px 10px;
         display:block;
         border-radius: 40%;
         text-align: center;
+        transition: all 0.3s;
     }
 
     .celu>li {
         float:left;
-        margin: 100% 0%  0 -140%;
+        margin: 0% 0%  0 -140%;
 
     }
 
@@ -417,11 +418,13 @@ input[type=email] {
         display: none;
         position: absolute;
         left: 64%;
-        top:13%;
+        top:70px;
     }
     .celu li a:hover{
-        background-color:rgb(61, 66, 83);
+        background-color:rgb(236, 236, 236);
+        color:#ee8f77 ;
     }
+
     .celu li:hover>ul{
         display: block;
     }
@@ -488,7 +491,7 @@ input[type=email] {
     .Ccuatro h4{
         background-color: #ffece8;
         padding: 9px 10px 9px 50px;
-        width: 330px;
+        width: 346px;
         margin-left: -70px;
     }
 
@@ -562,7 +565,7 @@ input[type=email] {
         color: #B9B9C1;
         font-size: 0.9rem;
         text-align: center;
-        background-color: #FAFAFA;
+        background-color: rgb(245, 245, 245);
         padding: 60px 15px 15px 15px;
         margin-top: -90px;
 
