@@ -55,8 +55,8 @@ nav li a:hover {
 
 button {
     background-color: #F3603B;
-    Width: 134px;
-    Height:44px;
+    Width: 10vw;
+    Height:3.2vw ;
     border: none;
     border-radius: 20px; 
     box-shadow: 0px 6px 5px rgba(243, 96, 59,0.2);
@@ -70,7 +70,11 @@ background-color:#f07657;
 button a {
     color: white;
     font-weight: 800;
-    font-size: 13.18px;
+    font-size: 0.9vw;
+}
+
+button a:hover{
+    color:rgb(236, 236, 236)
 }
 
 a {
@@ -128,8 +132,8 @@ a {
 
 /* CUADRO CUATRO */
 .Ccuatro button {
-    width: 62px;
-    height: 38px;
+    width: 4.5vw;
+    height: 2.6vw;
     color: white;
     font-weight: bold;
     position:relative;
@@ -245,7 +249,7 @@ a {
 .Bbanner>button>a {
     color:#F3603B;
     font-weight: 800;
-    font-size: 13.18px; 
+    font-size: 0.9vw; 
     transition: all 0.3s;
 }
 
@@ -280,19 +284,19 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     height: 100%;
+    width: 15vw;
 }
 
 .Fprimero a{
-    margin-left: 3%;
+    margin-left: 1vw;
     }
-
 
 .FprimeroBis a img:hover{
     filter: invert(49%) sepia(77%) saturate(2757%) hue-rotate(338deg) brightness(99%) contrast(92%);
     }
 
 .LogoF {
-        margin-left: 1%;
+        margin-left: 12%;
     }
 
 
@@ -377,6 +381,15 @@ input[type=email] {
         background-position:-250% -2%;
         margin: 0;
         padding: 0;
+    }
+
+    button {
+        Width: 33vw;
+        Height:11vw ;
+    }
+
+    button a {
+        font-size: 3.4vw;
     }
 
     .cuadros {
@@ -527,6 +540,8 @@ input[type=email] {
         top: 43px;
         left:5px;
         box-shadow: none;
+        width: 16vw;
+        height: 10vw;
     } 
 
     .Tcartas{
@@ -654,7 +669,7 @@ input[type=email] {
     .banner {
         flex-direction: column;
         height: 400px;
-        width: 360px;
+        width: 100vw;
     }
     .banner h2 {
         font-size: 37px;
@@ -669,7 +684,9 @@ input[type=email] {
         margin-bottom: 90px;
     }
 
-
+    .Bbanner>button>a{
+        font-size: 3.4vw;
+    }
 
                                                         /* FOOTER */
 
@@ -678,7 +695,7 @@ input[type=email] {
     footer {
         flex-direction: column;
         height: 500px;
-        width: 360px;
+        width: 100vw;
     }
 
     /* ORDEN FOOTER */
