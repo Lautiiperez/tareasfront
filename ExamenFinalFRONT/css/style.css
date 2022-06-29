@@ -23,7 +23,7 @@ nav div {
     justify-content: space-around;
     width: 100vw;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 2vw;
 }
 
 nav div .compu {
@@ -31,7 +31,7 @@ nav div .compu {
 }
 
 nav div .compu li{
-    margin-left: 30px;
+    margin-left: 3vw;
 }
 
 nav div ul li a {
@@ -94,14 +94,15 @@ a {
 /* CUADRO UNO */
 
 .Cuno h1{
-    font-size: 3rem ;
+    font-size: 3.5vw ;
     font-weight: 900;
     color: rgb(35, 44, 81);
     }
 
 .Cuno p {
-    margin:-20px 50px 40px 0;
-    font-size: 17px;
+    margin:-1vw 0 2vw 0;
+    width:24vw ;
+    font-size: 1.1vw;
     color: rgb(143, 148, 167)
 }
 
@@ -121,7 +122,7 @@ a {
 
 .Ctres p {
     margin:-10px 100px 0px 0px;
-    font-size: 16px;
+    font-size: 1.2vw;
     color: rgb(143, 148, 167)
 }
 
@@ -150,7 +151,7 @@ a {
     position: relative;
     left: 80px;
     top: -20px;
-    font-size: 16px;
+    font-size: 1.2vw;
     color: rgb(143, 148, 167);
 }
 
@@ -167,7 +168,7 @@ a {
     display: flex;
     justify-content: center;
     width: 100vw;
-    font-size: 24px;
+    font-size: 2vw;
     color:rgb(35, 44, 81);
     margin-top: -50px;
 }
@@ -188,8 +189,8 @@ a {
 .cartas img {
     width: 17%;
     position: relative;
-    top: -55px;
-    left: 170px; 
+    top: -35%;
+    left: 41%; 
 }
 
 .cartas h4 {
@@ -282,7 +283,7 @@ footer {
 }
 
 .Fprimero a{
-    margin-left: 10px;
+    margin-left: 3%;
     }
 
 
@@ -291,7 +292,7 @@ footer {
     }
 
 .LogoF {
-        margin-left: 15px;
+        margin-left: 1%;
     }
 
 
@@ -375,6 +376,7 @@ input[type=email] {
         background-size: 400px;
         background-position:-250% -2%;
         margin: 0;
+        padding: 0;
     }
 
     .cuadros {
@@ -393,6 +395,7 @@ input[type=email] {
 
     header button {
         display:none;
+        
     }
 
     .celu li{ list-style: none;
@@ -406,20 +409,20 @@ input[type=email] {
         border-radius: 40%;
         text-align: center;
         transition: all 0.3s;
-    }
+            }
 
     .celu>li {
         float:left;
-        margin: 0% 0%  0 -140%;
-
-    }
+        margin: 0% 0% 0% -140%;
+            }
 
     .celu li ul {
         display: none;
         position: absolute;
-        left: 64%;
-        top:70px;
+        right: 1%;
+        top: 4.3%;
     }
+
     .celu li a:hover{
         background-color:rgb(236, 236, 236);
         color:#ee8f77 ;
@@ -428,6 +431,7 @@ input[type=email] {
     .celu li:hover>ul{
         display: block;
     }
+
     nav div {
         justify-content: space-between;
     }
@@ -438,32 +442,43 @@ input[type=email] {
 
     .logo1 {
         width: 35%;}
+    
+    .amenu:hover{
+        display:none;
+        
+    }
 
+    .cmenu{
+        position: relative;
+        left: 65px;
+        }
+    
                                        /* CUADROS */
 
     .cuadros>div {
-        width: 90vw;
+        width: 97vw;
         padding: 15px;
-        margin-left: -30px;
+        margin-left: -25px;
     }
 
 /* CUADRO UNO */
-
     .Cuno h1{
         text-align: center;
         font-size: 35px;
-        /* font-weight: 600; NO ME DEJA :( */
+        margin-left: 25px;
     }
 
     .Cuno p {
         text-align: center;
-        margin: -20px 0px 20px 0px;
+        margin: -20px 0px 20px 25px;
         padding: 0px 5px;
+        font-size: 4vw;
+        width: 80vw;
 
     }
 
     .Cuno>button {
-        margin-left: 80px ;
+        margin-left: 110px ;
     }
 
 /* CUADRO DOS */
@@ -479,12 +494,14 @@ input[type=email] {
 /* CUADRO TRES */
     .Ctres h2{
         text-align: center;
-        font-size: 30px
+        font-size: 30px;
+        margin-left: 25px;
     }
     .Ctres p {
         text-align: center;
-        margin: -20px 0px 20px 0px;
+        margin: -20px 0px 20px 25px;
         padding: 0px 5px;
+        font-size: 4vw;
     }
 
  /* CUADRO CUATRO */   
@@ -492,25 +509,29 @@ input[type=email] {
         background-color: #ffece8;
         padding: 9px 10px 9px 50px;
         width: 346px;
-        margin-left: -70px;
+        margin-left: -60px;
     }
 
     .Ccuatro p{
-        margin-left: -80px;
+        margin-left: -70px;
         width: 330px;
         font-size: 14px;
+    }
+
+    .Ccuatro div{
+        margin-bottom: -30px;
     }
 
     .Ccuatro button{
         z-index: 1;
         top: 43px;
-        left:-10px;
+        left:5px;
         box-shadow: none;
     } 
 
     .Tcartas{
         font-size: 20px;
-        margin-top: -30px;
+        margin-top: 0px;
     }
 
                                          /* CARTAS */
