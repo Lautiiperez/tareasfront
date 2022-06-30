@@ -65,6 +65,7 @@ button {
 
 button:hover {
 background-color:#f07657;
+cursor: pointer;
 }
 
 button a {
@@ -340,6 +341,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color:#f07657;
+    cursor: pointer;
 }
 
 /* CAMPO EMAIL */
@@ -443,6 +445,7 @@ input[type=email] {
 
     .celu li:hover>ul{
         display: block;
+        transition: all 0.3s;
     }
 
     nav div {
